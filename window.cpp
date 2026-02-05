@@ -23,14 +23,19 @@ Window::Window(QWidget *parent) :
     b_LoadLog->setGeometry(885, 120, 110, 30);
     b_LoadLog->setToolTip("Loads the log into the application and colourises it.");
     connect(b_LoadLog, SIGNAL (clicked()), this, SLOT (loadLogButtonClicked()));
+    // Clear Text Button
+    b_ClearText = new QPushButton("Clear Text", this);
+    b_ClearText->setGeometry(885, 150, 110, 30);
+    b_ClearText->setToolTip("Clears the text.");
+    connect(b_ClearText, SIGNAL (clicked()), this, SLOT (clearTextButtonClicked()));
     // AboutQT Button
     b_AboutQt = new QPushButton("About QT", this);
-    b_AboutQt->setGeometry(885, 150, 110, 30);
+    b_AboutQt->setGeometry(885, 180, 110, 30);
     b_AboutQt->setToolTip("Information about Qt.");
     connect(b_AboutQt, SIGNAL (clicked()), this, SLOT (aboutQtButtonClicked()));
     // Exit Button
     b_Exit = new QPushButton("Exit", this);
-    b_Exit->setGeometry(885, 180, 110, 30);
+    b_Exit->setGeometry(885, 210, 110, 30);
     b_Exit->setToolTip("Bail Out! Bail Out!");
     connect(b_Exit, SIGNAL (clicked()), QApplication::instance(), SLOT (quit()));
 
@@ -64,4 +69,10 @@ void Window::loadLogButtonClicked()
     textCursor.select(QTextCursor::Document);
     newFormat->setLineHeight(lineSpacing, QTextBlockFormat::ProportionalHeight);
     textCursor.setBlockFormat(*newFormat);
+
+}
+
+void Window::clearTextButtonClicked()
+{
+    t_text->clear();
 }
