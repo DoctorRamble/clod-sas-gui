@@ -42,7 +42,7 @@ Use "sas help", "sas.exe help" or "./sas help" for a useful help page.
 Not Yet Asked Questions:
 1. Will you be making a Linux version for this? **A:** I do not plan on making a Linux version of this. It would be straightforward and would only take a little while, but the only reason I made this is because the Windows 10 CMD does not support the colour codes that SAS uses in Linux. But then again, looking at my programme's original ATAG post, I said there would be no point in making a GUI for SAS... and here I am, having made a GUI for SAS.
 2. Why is your programming so messy and "x-thing" is done incorrectly? **A:** I am aware that my programming may be messy and/or incorrect, but A) I am not a professional, and B) At least I didn't use AI!
-3. Are you aware by making a Windows-exclusive programme you are now on Tux's bad-list? **A:** I hope Tux can forgive my transgressions.
+3. Are you aware that by making a Windows-exclusive programme you are now on Tux's bad-list? **A:** I hope Tux can forgive my transgressions.
 
 ## About The Icon
 To use the icon with the source code make a new directory (.../assets/icons), relative to the main executable.
