@@ -24,8 +24,11 @@ void debugInfo();
 // Puts the log into text_lines and formats it using HTML
 void sas()
 {
-    // Clears text_lines
+    // Clear text
+    log_lines.clear();
+    formatted_log.clear();
     text_lines.clear();
+    
     // Creates the file name
     output_name = getDateTime();
 
@@ -235,3 +238,4 @@ void debugInfo()
     text_lines.push_back("<b>Misc:</b>");
     text_lines.push_back("  Output Log Dir: " + log_file_dir);
 }
+
