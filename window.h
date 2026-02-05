@@ -14,6 +14,7 @@ signals:
 private slots:
     void aboutQtButtonClicked();
     void loadLogButtonClicked();
+    void clearTextButtonClicked();
 private:
     // Icon
     QIcon *i_icon;
@@ -21,9 +22,11 @@ private:
     // Buttons
     QPushButton *b_AboutQt;
     QPushButton *b_LoadLog;
+    QPushButton *b_ClearText;
     QPushButton *b_Exit;
     // Text Box
     QTextEdit *t_text;
 };
 
 #endif // WINDOW_H
+
