@@ -36,6 +36,8 @@ The contents of config.txt have to remain in order, as the 'keys' are only there
 4. For items 4-22 refer to the information at [https://github.com/DoctorRamble/clod-sas](https://github.com/DoctorRamble/clod-sas). Generally you can keep these as defaults.
 5. Items 23-30 take hexadecimal colour codes (E.g. "#000000")
 
+Use "sas help", "sas.exe help" or "./sas help" for a useful help page.
+
 ## NYAQ
 Not Yet Asked Questions:
 1. Will you be making a Linux version for this? **A:** I do not plan on making a Linux version of this. It would be straightforward and would only take a little while, but the only reason I made this is because the Windows 10 CMD does not support the colour codes that SAS uses in Linux. But then again, looking at my programme's original ATAG post, I said there would be no point in making a GUI for SAS... and here I am, having made a GUI for SAS.
