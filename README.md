@@ -12,7 +12,7 @@ A GUI for [CloD Server Activity Statistics](https://github.com/DoctorRamble/clod
 ## About This Programme
 This is a (Windows-exclusive) GUI for [clod-sas](https://github.com/DoctorRamble/clod-sas) that uses Qt6 and C++20.
 
-ATAG Forum Post: (put link here)
+[ATAG Forum Post](https://theairtacticalassaultgroup.com/forum/showthread.php?t=39090&p=403331#post403331)
 
 ## Source Code Installation
 Download the source files and open them in Qt Creator or another properly-configured IDE. Place the icon.ico in a new directory (.../assets/icons) relative to where the project/executable lies.
